@@ -145,10 +145,11 @@
     color: #ffffff;
     width: 120px;
     margin-left: 45px;
-    border-bottom: 4px solid black;
+    border-bottom: 1px solid rgb(255, 255, 255);
   }
 
   .sidenav a:hover {
-    color: #838383;
-    border-bottom: 3px solid #838383;
+    font-size: 1.5em;
+    color: #ffee00;
+    border-bottom: 0px;
   }

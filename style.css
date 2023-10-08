@@ -1,40 +1,41 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
 *{
+  
     padding: 0;
     margin: 0;
 }
+body::-webkit-scrollbar{
 
-body{
-    backdrop-filter: blur(5px);
-    background-size: cover;
-    background-image: url(bg.jpg)
+  display: none;
 }
-.sidenav{
+.home{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(bg.jpg);
+ 
+}
+.sidebar{
+  z-index: 1;
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  padding: 0px;
+  box-sizing: border-box;
   box-shadow: 3px 2px 5px;
-    z-index: 1;
-    width: 200px;
-    height: 100%;
-    position: fixed;
-    overflow: hidden;
-    top: 0;
-    left: 0;
-    overflow-x: hidden;
-    background-color: #331E38;
+  background-color: #331E38;*/
+    
 }
 
-.sidenav img{
-    padding: 150px 25px 0px 35px;
+.sidebar img{
+    padding: 150px 25px 90px 35px;
     width: 130px;
 }
 
-.childnav{
-    margin-top: 90px;
-    width: 200px;
-    height: 50%;
 
-}
-
-.sidenav a {
+.sidebar a {
+  
+    text-align: center;
     line-height: 3em;
     text-align: center;
     font-weight: 500;
@@ -45,15 +46,17 @@ body{
     color: #ffffff;
     width: 120px;
     margin-left: 45px;
-    border-bottom: 4px solid black;
+    border-bottom: 1px solid rgb(255, 255, 255);
   }
 
-  .sidenav a:hover {
-    color: #838383;
-    border-bottom: 3px solid #838383;
+  .sidebar a:hover {
+    font-size: 1.5em;
+    color: #ffee00;
+    border-bottom: 0px;
   }
 
   .title{
+    backdrop-filter: blur(5px);
     text-align: center;
     top: 35%;
     left: 40%;
@@ -61,7 +64,7 @@ body{
     width: 500px;
     height: 250px;
     border: 10px solid white;
-    box-shadow: 1px 5px 15px 0px black;
+    box-shadow: 1px 3px 10px 0px black;
   }
   .title #main{
     text-shadow: 2px 2px 2px black;
@@ -80,3 +83,253 @@ body{
     font-weight: bold;
     font-size: 20px;
   }
+
+                                             /*section 2*/
+  
+  .about{
+    background: linear-gradient(0deg, rgba(250, 29, 29, 0.45), rgba(250, 29, 29, 0.45)), url(about.jpg);
+    left: 200px;
+    margin-top: 0px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    padding: 50px 50px 50px 50px;
+  }
+
+  .about #caption{
+    color: white;
+    font-weight: 300;
+    font-family: Roboto;
+    font-size: 6rem;
+  }
+ .about p{
+  color: white;
+    font-weight: 400;
+    font-family: Roboto;
+    font-size: 1.2rem;
+    margin-right: 800px;
+  
+ }
+
+                                            /*section 3*/
+.services::-webkit-scrollbar{
+  display: none;
+}
+.services{
+ 
+  background-color: #423d2d;
+    left: 200px;
+    margin-top: 1000px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 300px;
+    padding: 10px 50px 50px 90px;
+  }
+
+  .services #caption2{
+    color:#9C9681;
+    font-weight: 300;
+    font-family: Roboto;
+    font-size: 6rem;
+    margin-bottom: 50px;
+
+  }
+
+.services .sv1{
+  display: inline-block;
+  width: 30%;
+}
+
+.services .sv2{
+  display: inline-block;
+  width: 30%;
+}
+
+.services .sv3{
+  display: inline-block;
+  width: 30%;
+}
+
+
+.services img{
+  width: 50px;
+}
+
+.services h4{
+  font-family: Roboto;
+  margin-top: -50px;
+  margin-left: 14%;
+  font-size: 2rem;
+  width: 70%;
+  color: salmon;
+}
+
+.services p{
+  font-family: Roboto;
+  margin-top: 10px;
+  margin-left: 14%;
+  font-size: 1rem;
+  width: 70%;
+  color: rgb(255, 255, 255);
+}
+
+
+                                           /*section 3*/
+
+.projects .bg{
+  overflow: hidden;
+  left: -6%;
+  background-image: url(pl2.jpg);
+    margin-top: 42px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 300px;
+    width: 100%;
+    padding: 10px 50px 50px 94px;
+
+  }
+
+  .projects .bg #caption3{
+    color:#ffffff;
+    font-weight: 400;
+    font-family: Roboto;
+    font-size: 6rem;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-left: 1%;
+
+  }
+
+  .projects .bg #subcap{
+    color:#ffffff;
+    font-weight: 400;
+    font-family: Roboto;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    width: 50%;
+    margin-left: 1%;
+  }
+
+
+  .projects2{
+    overflow: hidden;
+    overflow-x: hidden;
+      align-content: center;
+      background-color: #B5B4C7;
+      margin-top: 0px;
+      position: absolute;
+      height: 300px;
+      width: 1650px;
+      padding: 50px 00px 150px 102px;
+      margin-left: -100px;
+  
+    }
+
+.projects .pr1{
+  display: inline-block;
+  width: 22%;
+}
+.projects .pr2{
+  display: inline-block;
+  width: 22%;
+}
+.projects .pr3{
+  display: inline-block;
+  width: 22%;
+}
+.projects .pr4{
+  display: inline-block;
+  width: 22%;
+}
+
+.projects img{
+  margin-right: 10px;
+  margin-left: 80px;
+  align-items: center;
+  height: 200px;
+  width: 330px;
+  padding: 0px;
+}
+
+.projects h4{
+  font-family: Roboto;
+  margin-top: 10px;
+  margin-left: 80px;
+  font-size: 2rem;
+  width: 70%;
+  color: #585671;
+}
+
+.projects p{
+  font-family: Roboto;
+  margin-top: 10px;
+  margin-left: 80px;
+  font-size: 0.9rem;
+  width: 90%;
+  color: rgb(255, 255, 255);
+}
+
+
+
+.contact{
+  overflow-x: hidden;
+  background-image: url(plantb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 500px;
+  margin-left: -90px;
+  width: 1720px;
+  height: 300px;
+  position: relative;
+}
+.contact #caption5{
+  color:#ffffff;
+  font-weight: 400;
+  font-family: Roboto;
+  font-size: 6rem;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  margin-left: 60%;
+
+}
+
+.contact p{
+  color:#ffffff;
+  font-weight: 400;
+  font-family: Roboto;
+  font-size: 1rem;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-left: 44%;
+}
+
+.footer{
+  margin-left: -90px;
+  top: 490px;
+  position: relative;
+  background-color:#C2095A;
+  height: 70px;
+}
+
+.footer p{
+  padding-top: 25px;
+  font-family: Roboto;
+  margin-left: 50px;
+}
+
+.footer .social{
+  margin-top: -30px;
+  align-content: center;
+  padding-left: 1300px;
+  margin-right: 10px ;
+  width: 450px;
+}
+
+.footer .social img{
+  margin-right: 20px ;
+  width: 40px;
+
+}
