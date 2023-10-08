@@ -1,0 +1,669 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(1, 33, 63);
+    padding: 0;
+    height: 1500px;
+
+}
+
+
+
+
+.parent{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+    width: 840px;
+    height: 1300px;
+    background-color: white;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+
+                                /* TITLE */
+.childtitle{
+    display: inline;
+    margin: 20px 10px 20px 30px;
+    position: absolute;
+    width: 800px;
+}
+
+.logo img {
+    float: left;
+    border-top: 2px  solid black;
+    border-left: 2px  solid black;
+    border-bottom: 2px  solid black;
+    padding: 10px 30px 10px 30px;
+    margin: 20px 0px 20px 20px;
+    width: 50px;
+    height: 50px;
+
+}
+
+.tesda{
+
+    float: left;
+    border: 2px solid black;
+    padding: 10px 30px 10px 30px;
+    margin: 20px 0px 20px 0px;
+    width: 450px;
+    height: 50px;
+}
+
+.tesda #topt{
+    margin-top: 5px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tesda #subt{
+    margin-top: 2px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+
+.nm{
+    float: left;
+    border-top: 2px  solid black;
+    border-right: 2px  solid black;
+    border-bottom: 2px  solid black;
+    padding: 10px 49px 10px 20px;
+    margin: 20px 0px 20px 0px;
+    width: 47px;
+    height: 50px;
+
+}
+
+.nm p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: center;
+    width: 80px;
+}
+
+                                         /* SUBTITE */
+
+
+.regi{
+  
+    padding-left: 50px;
+    position: absolute;
+    top: 8%;
+    width: 744px;
+    height: 100px;
+    justify-content: center;
+}              
+
+.regi p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 40px;
+    text-align: center;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+
+}
+
+                                /* THIRD  LINE */
+
+.LPF{
+    padding-left: 50px;
+    position: absolute;
+    top: 12.5%;
+    width: 744px;
+    height: 100px;
+    justify-content: center;
+}      
+
+.LPFtext p{
+    letter-spacing: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    padding-right: 50px;
+    height: 80px;
+    text-align: center;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.pic{
+    padding-left: 50px;
+    position: absolute;
+    left: 75%;
+    top: 15%;
+    width: 85px;
+    height: 100px;
+   
+}
+
+.pic label{
+    text-align: center;
+    align-items: center;
+  display: inline-block;
+  background-color: rgb(187, 230, 255);
+  color: rgb(0, 0, 0);
+  padding: 2rem;
+  font-family: sans-serif;
+  border-radius: 0.5rem;
+  border: 2px solid black;
+  cursor: pointer;
+  margin-left: -60px;
+  width: 85px;
+  height: 35px;
+
+
+}
+
+.pic p{
+    
+    letter-spacing: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 35px;
+    padding-right: 35px;
+    width: 90px;
+    text-align: center;
+    border: 2px solid black;
+    
+}
+
+.child1{
+    padding-left: 50px;
+    position: absolute;
+    top: 22.5%;
+    width: 744px;
+    height: 100px;
+    justify-content: center;
+}
+
+.child1T{
+    background-color: rgb(190, 190, 190);
+    border-top: 1px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    height: 20px;
+}
+
+.child1T p{
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 17px;
+
+
+}
+
+.child1ST{
+    padding-top:10px ;
+    padding-left:20px ;
+    border-top: 1px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    height: 70px;
+}
+
+.inline-form label{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px 10px 5px 10px;
+}
+
+.inline-form input{
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+
+                            /* FOURTH  LINE */
+
+
+.child2{
+    padding-left: 50px;
+    position: absolute;
+    top: 30%;
+    width: 744px;
+    height: 100px;
+    justify-content: center;
+}
+
+.child2T{
+    background-color: rgb(190, 190, 190);
+    border-top: 1px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    height: 20px;
+}
+
+.child2T p{
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 17px;
+
+
+}
+
+.child2ST{
+    padding-top:10px ;
+    padding-left:30px ;
+    border-top: 1px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    height: 270px;
+}
+
+.inline-form2 label{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px 10px 5px 0px;
+}
+
+.inline-form2 input{
+    vertical-align: middle;
+    margin: 5px 10px 5px 10px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 600px;
+}
+
+
+
+
+.child2ST2{
+    padding-top:10px ;
+    padding-left:30px ;
+    border-bottom: 1px solid black;
+    height: 100px;
+}
+
+.inline-form22 label{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+.inline-form22 input{
+  
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 190px;
+}
+
+.inline-form22 select{
+    vertical-align: middle;
+    margin: 5px 10px 5px 12px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 115px;
+}
+
+.inline-form22 #email{
+    vertical-align: middle;
+    margin: 5px 10px 5px 5px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 191px;
+}
+
+.inline-form22 #nat{
+    vertical-align: middle;
+    margin: 5px 10px 5px 5px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 195px;
+}
+
+
+
+                                /* 6th lINE */
+
+.pi1{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    width: 200px;
+    height: 170px;
+    position: absolute;
+    top: 20.5%;
+
+    }
+
+
+.pi2{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    position: absolute;
+    left: 31%;
+    top: 20.5%;
+    width: 200px;
+    height: 170px;
+    }
+
+.pi3{
+    border-bottom: 1px solid black;
+   
+    position: absolute;
+    left: 56%;
+    top: 20.5%;
+    width: 349px;
+    height: 170px;
+}
+    
+
+
+.child3{
+    padding-left: 50px;
+    position: absolute;
+    top: 52%;
+    width: 744px;
+    height: 100px;
+    justify-content: center;
+}
+.child3T{
+    background-color: rgb(190, 190, 190);
+    border-top: 1px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+
+    height: 20px;
+}
+
+.child3T p{
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 17px;
+
+
+}
+
+.child3ST{
+    padding-top:10px ;
+    padding-left:0px ;
+    border-top: 1px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    height: 360px;
+}
+
+.inline-form33{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.inline-form33 label{
+   
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px 10px 5px 10px;
+}
+
+
+.inline-form33 #male{
+   
+    vertical-align: middle;
+    margin: 0px -10px 5px 10px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 30px;
+    
+}
+
+.inline-form33 #female{
+    vertical-align: middle;
+    margin: 5px -10px 5px 10px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 30px;
+}
+
+.child3ST2{
+    position: relative;
+    top: 45%;
+    border-bottom: 1px solid black;
+    height: 70px;
+}
+
+.inline-form34{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.inline-form34 label{
+   
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px 10px 5px 10px;
+}
+
+.inline-form34 input{
+  
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 190px;
+}
+
+.inline-form34 #age{
+  
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 70px;
+}
+.inline-form34 #bday{
+  
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 150px;
+}
+
+.child3T3{
+    top: 45%;
+    position: relative;
+    background-color: rgb(190, 190, 190);
+    border-bottom: 1px solid black;
+    height: 25px;
+}
+
+.child3T3 p{
+
+    padding-top: 3px;
+    ;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 17px;
+
+
+}
+
+.ea{
+position: relative;
+top: 50%;
+
+}
+.inline-form35 label{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+.inline-form35 input{
+  
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 190px;
+}
+
+.inline-form35 select{
+    vertical-align: middle;
+    margin: 5px 10px 5px 100px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 500px;
+}
+
+
+                                    /* seben */
+.child4{
+    margin-left: 50px;
+    position: absolute;
+    top: 82%;
+    width: 740px;
+    height: 170px;
+    justify-content: center;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 1px solid black;
+}
+.child4T{
+    background-color: rgb(190, 190, 190);
+    border-top: 1px solid black;
+  
+    border-bottom: 1px solid black;
+
+    height: 20px;
+}
+
+.child4T p{
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 17px;
+
+
+}
+
+.child4ST{
+    padding-top:10px ;
+    padding-left:0px ;
+    border-top: 1px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    height: 350px;
+}
+
+.eat{
+    position: relative;
+    top: 10%;
+    
+    }
+    .inline-form45 label{
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       
+    }
+    
+    .inline-form45 input{
+        vertical-align: middle;
+        margin: 5px 10px 5px 100px;
+        padding: 15px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        width: 500px;
+    }
+    
+    .inline-form45 select{
+        vertical-align: middle;
+        margin: 5px 10px 5px 100px;
+        padding: 15px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        width: 500px;
+    }
+
+
+    .sidenav{
+        box-shadow: 3px 2px 5px;
+        z-index: 1;
+        width: 200px;
+        height: 100%;
+        position: fixed;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+        overflow-x: hidden;
+        background-color: #331E38;
+    }
+    
+    .sidenav img{
+        
+        padding: 150px 25px 0px 35px;
+        width: 130px;
+    }
+    
+    .childnav{
+        margin-top: 90px;
+        width: 200px;
+        height: 50%;
+    
+    }
+    
+    .sidenav a {
+        line-height: 3em;
+        text-align: center;
+        font-weight: 500;
+        font-family: Roboto;
+        text-decoration: none;
+        font-size: 25px;
+        display: block;
+        color: #ffffff;
+        width: 120px;
+        margin-left: 45px;
+        border-bottom: 4px solid black;
+      }
+    
+      .sidenav a:hover {
+        color: #838383;
+        border-bottom: 3px solid #838383;
+      }
+
+    

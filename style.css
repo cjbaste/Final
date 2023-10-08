@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    backdrop-filter: blur(5px);
+    background-size: cover;
+    background-image: url(bg.jpg)
+}
+.sidenav{
+  box-shadow: 3px 2px 5px;
+    z-index: 1;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    background-color: #331E38;
+}
+
+.sidenav img{
+    padding: 150px 25px 0px 35px;
+    width: 130px;
+}
+
+.childnav{
+    margin-top: 90px;
+    width: 200px;
+    height: 50%;
+
+}
+
+.sidenav a {
+    line-height: 3em;
+    text-align: center;
+    font-weight: 500;
+    font-family: Roboto;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    color: #ffffff;
+    width: 120px;
+    margin-left: 45px;
+    border-bottom: 4px solid black;
+  }
+
+  .sidenav a:hover {
+    color: #838383;
+    border-bottom: 3px solid #838383;
+  }
+
+  .title{
+    text-align: center;
+    top: 35%;
+    left: 40%;
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    border: 10px solid white;
+    box-shadow: 1px 5px 15px 0px black;
+  }
+  .title #main{
+    text-shadow: 2px 2px 2px black;
+    padding: 20px 20px 20px 20px;
+    color: white;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+  .title #sub{
+    text-shadow: 2px 2px 2px black;
+    padding: 0px 20px 20px 20px;
+    color: white;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+  }
